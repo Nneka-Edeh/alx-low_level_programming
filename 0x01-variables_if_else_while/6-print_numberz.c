@@ -4,11 +4,10 @@
 /**
  * main - return single integer from 0-10
  *
- * Retuen: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
 	int num = '0';
 
