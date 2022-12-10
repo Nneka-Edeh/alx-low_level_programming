@@ -1,11 +1,11 @@
-nclude <stdio.h>
-#include <stdlib.h
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- *  main - main function to generate a random number
+ * main - main function to generate a random number
  *
- *  Return: Always 0 (Success)
+ * Return: Always 0 (success)
  *
  */
 
