@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * main - return alphabets both lower and upper cases
+ * main - returns alphabets
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch = 'a';
+	int ch ='a';
 
 	while (ch <= 'z')
 	{
