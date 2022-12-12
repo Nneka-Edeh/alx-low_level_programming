@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -msm=intel $CFILE
+gcc -c $CFILE -O 1-main.o
