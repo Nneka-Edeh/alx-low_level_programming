@@ -1,27 +1,24 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Entry point
- *
- * Description: computes the sum of all
- *	        the multiples of 3 or 5
- *	        below 1024 (excluded)
- *
- * Return: Always 0 (success)
+ * main - generates random valid passwords
+ * Return: 0 if success
  */
-
 int main(void)
-
 {
-	int sum, num;
+	int pass, sum;
 
-	for (num = 0; num < 1024; ++num)
+	srand(time(NULL));
+	sum = 0;
+	while (sum <= 2645)
 	{
-		if ((num % 3 == 0) || (num % 5 == 0))
-			sum += num;
+		pass = (rand() % 128);
+		sum += pass;
 	}
-	printf("%d\n", sum);
 
-	return (0);
+	printf("%c",2772 - sum);
+
+	return(0);
 }
